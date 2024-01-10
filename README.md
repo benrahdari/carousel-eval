@@ -1,4 +1,4 @@
-# carousel-eval
+# CarE
 ## An Infrastructure for Evaluation of Carousel-Based Recommender Interfaces
 
 Carousel-based interfaces are integral to enhancing user experience in online recommender systems such as streaming services or e-commerce platforms, yet their usability evaluation often lacks a standardized approach. 
