@@ -1,0 +1,474 @@
+{
+    "carousel1":{
+        "title": "Top action movies",
+        "items":{
+            "item1":{
+                "title":"Inception",
+                "image":"https://image.tmdb.org/t/p/original/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+                "tag":"Science Fiction",
+                "reviews":620,
+                "stars":5,
+                "key": true
+            },
+            "item2":{
+                "title":"Spider-Man: No Way Home",
+                "image":"https://image.tmdb.org/t/p/original/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg",
+                "tag":"Adventure",
+                "reviews":717,
+                "stars":4,
+                "key": false
+            },
+            "item3":{
+                "title":"The Matrix",
+                "image":"https://image.tmdb.org/t/p/original/l4QHerTSbMI7qgvasqxP36pqjN6.jpg",
+                "tag":"Science Fiction",
+                "reviews":1413,
+                "stars":5,
+                "key": false
+            },
+            "item4":{
+                "title":"The Dark Knight",
+                "image":"https://image.tmdb.org/t/p/original/pbEkjhdfP7yuDcMB78YEZwgD4IN.jpg",
+                "tag":"Thriller",
+                "reviews":514,
+                "stars":4,
+                "key": false
+            },
+            "item5":{
+                "title":"Everything Everywhere All at Once",
+                "image":"https://image.tmdb.org/t/p/original/tt79dbOPd9Z9ykEOpvckttgYXwH.jpg",
+                "tag":"Science Fiction",
+                "reviews":75,
+                "stars":5,
+                "key": false
+            },
+            "item6":{
+                "title":"The Lord of the Rings: The Fellowship of the Ring",
+                "image":"https://image.tmdb.org/t/p/original/gU84vBGG2x8K3x1zrz4SggiN5hr.jpg",
+                "tag":"Fantasy",
+                "reviews":583,
+                "stars":3,
+                "key": false
+            },
+            "item7":{
+                "title":"Avengers: Infinity War",
+                "image":"https://image.tmdb.org/t/p/original/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+                "tag":"Adventure",
+                "reviews":631,
+                "stars":4,
+                "key": false
+            },
+            "item8":{
+                "title":"Inception",
+                "image":"https://image.tmdb.org/t/p/original/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+                "tag":"Science Fiction",
+                "reviews":620,
+                "stars":5,
+                "key": false
+            },
+            "item9":{
+                "title":"Spider-Man: No Way Home",
+                "image":"https://image.tmdb.org/t/p/original/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg",
+                "tag":"Adventure",
+                "reviews":717,
+                "stars":4,
+                "key": false
+            },
+            "item10":{
+                "title":"The Matrix",
+                "image":"https://image.tmdb.org/t/p/original/l4QHerTSbMI7qgvasqxP36pqjN6.jpg",
+                "tag":"Science Fiction",
+                "reviews":1413,
+                "stars":5,
+                "key": false
+            },
+            "item11":{
+                "title":"The Dark Knight",
+                "image":"https://image.tmdb.org/t/p/original/pbEkjhdfP7yuDcMB78YEZwgD4IN.jpg",
+                "tag":"Thriller",
+                "reviews":514,
+                "stars":4,
+                "key": false
+            },
+            "item12":{
+                "title":"Everything Everywhere All at Once",
+                "image":"https://image.tmdb.org/t/p/original/tt79dbOPd9Z9ykEOpvckttgYXwH.jpg",
+                "tag":"Science Fiction",
+                "reviews":75,
+                "stars":5,
+                "key": false
+            },
+            "item13":{
+                "title":"The Lord of the Rings: The Fellowship of the Ring",
+                "image":"https://image.tmdb.org/t/p/original/gU84vBGG2x8K3x1zrz4SggiN5hr.jpg",
+                "tag":"Fantasy",
+                "reviews":583,
+                "stars":3,
+                "key": false
+            },
+            "item14":{
+                "title":"Avengers: Infinity War",
+                "image":"https://image.tmdb.org/t/p/original/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+                "tag":"Adventure",
+                "reviews":631,
+                "stars":4,
+                "key": false
+            }
+        }
+    },
+
+    "carousel2":{
+        "title": "All time comedy",
+        "items":{
+            "item1":{
+                "title":"Fight Club",
+                "image":"https://image.tmdb.org/t/p/original/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+                "tag":"Drama",
+                "reviews":5421,
+                "stars":5,
+                "key": false
+            },
+            "item2":{
+                "title":"The Wolf of Wall Street",
+                "image":"https://image.tmdb.org/t/p/original/br7n8b3ELexcvs6l30IH2x9P2ux.jpg",
+                "tag":"crime",
+                "reviews":122,
+                "stars":4,
+                "key": false
+            },
+            "item3":{
+                "title":"Forrest Gump",
+                "image":"https://image.tmdb.org/t/p/original/3h1JZGDhZ8nzxdgvkxha0qBqi05.jpg",
+                "tag":"Romance",
+                "reviews":7223,
+                "stars":5,
+                "key": false
+            },
+            "item4":{
+                "title":"Up",
+                "image":"https://image.tmdb.org/t/p/original/hGGC9gKo7CFE3fW07RA587e5kol.jpg",
+                "tag":"Animation",
+                "reviews":924,
+                "stars":4,
+                "key": false
+            },
+            "item5":{
+                "title":"Shrek",
+                "image":"https://image.tmdb.org/t/p/original/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+                "tag":"Animation",
+                "reviews":1025,
+                "stars":3,
+                "key": false
+            },
+            "item6":{
+                "title":"Deadpool",
+                "image":"https://image.tmdb.org/t/p/original/en971MEXui9diirXlogOrPKmsEn.jpg",
+                "tag":"Action",
+                "reviews":3226,
+                "stars":4,
+                "key": false
+            },
+            "item7":{
+                "title":"Toy Story",
+                "image":"https://image.tmdb.org/t/p/original/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
+                "tag":"Adventure",
+                "reviews":1127,
+                "stars":3,
+                "key": false
+            },
+            "item8":{
+                "title":"Fight Club",
+                "image":"https://image.tmdb.org/t/p/original/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+                "tag":"Drama",
+                "reviews":5421,
+                "stars":5,
+                "key": false
+            },
+            "item9":{
+                "title":"The Wolf of Wall Street",
+                "image":"https://image.tmdb.org/t/p/original/br7n8b3ELexcvs6l30IH2x9P2ux.jpg",
+                "tag":"crime",
+                "reviews":122,
+                "stars":4,
+                "key": false
+            },
+            "item10":{
+                "title":"Forrest Gump",
+                "image":"https://image.tmdb.org/t/p/original/3h1JZGDhZ8nzxdgvkxha0qBqi05.jpg",
+                "tag":"Romance",
+                "reviews":7223,
+                "stars":5,
+                "key": false
+            },
+            "item11":{
+                "title":"Up",
+                "image":"https://image.tmdb.org/t/p/original/hGGC9gKo7CFE3fW07RA587e5kol.jpg",
+                "tag":"Animation",
+                "reviews":924,
+                "stars":4,
+                "key": false
+            },
+            "item12":{
+                "title":"Shrek",
+                "image":"https://image.tmdb.org/t/p/original/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+                "tag":"Animation",
+                "reviews":1025,
+                "stars":3,
+                "key": false
+            },
+            "item13":{
+                "title":"Deadpool",
+                "image":"https://image.tmdb.org/t/p/original/en971MEXui9diirXlogOrPKmsEn.jpg",
+                "tag":"Action",
+                "reviews":3226,
+                "stars":4,
+                "key": false
+            },
+            "item14":{
+                "title":"Toy Story",
+                "image":"https://image.tmdb.org/t/p/original/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
+                "tag":"Adventure",
+                "reviews":1127,
+                "stars":3,
+                "key": false
+            }
+        }
+
+    },
+
+    "carousel3":{
+        "title": "Top action movies",
+        "items":{
+            "item1":{
+                "title":"Inception",
+                "image":"https://image.tmdb.org/t/p/original/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+                "tag":"Science Fiction",
+                "reviews":620,
+                "stars":5,
+                "key": false
+            },
+            "item2":{
+                "title":"Spider-Man: No Way Home",
+                "image":"https://image.tmdb.org/t/p/original/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg",
+                "tag":"Adventure",
+                "reviews":717,
+                "stars":4,
+                "key": false
+            },
+            "item3":{
+                "title":"The Matrix",
+                "image":"https://image.tmdb.org/t/p/original/l4QHerTSbMI7qgvasqxP36pqjN6.jpg",
+                "tag":"Science Fiction",
+                "reviews":1413,
+                "stars":5,
+                "key": false
+            },
+            "item4":{
+                "title":"The Dark Knight",
+                "image":"https://image.tmdb.org/t/p/original/pbEkjhdfP7yuDcMB78YEZwgD4IN.jpg",
+                "tag":"Thriller",
+                "reviews":514,
+                "stars":4,
+                "key": false
+            },
+            "item5":{
+                "title":"Everything Everywhere All at Once",
+                "image":"https://image.tmdb.org/t/p/original/tt79dbOPd9Z9ykEOpvckttgYXwH.jpg",
+                "tag":"Science Fiction",
+                "reviews":75,
+                "stars":5,
+                "key": false
+            },
+            "item6":{
+                "title":"The Lord of the Rings: The Fellowship of the Ring",
+                "image":"https://image.tmdb.org/t/p/original/gU84vBGG2x8K3x1zrz4SggiN5hr.jpg",
+                "tag":"Fantasy",
+                "reviews":583,
+                "stars":3
+            },
+            "item7":{
+                "title":"Avengers: Infinity War",
+                "image":"https://image.tmdb.org/t/p/original/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+                "tag":"Adventure",
+                "reviews":631,
+                "stars":4,
+                "key": false
+            },
+            "item8":{
+                "title":"Inception",
+                "image":"https://image.tmdb.org/t/p/original/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+                "tag":"Science Fiction",
+                "reviews":620,
+                "stars":5,
+                "key": false
+            },
+            "item9":{
+                "title":"Spider-Man: No Way Home",
+                "image":"https://image.tmdb.org/t/p/original/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg",
+                "tag":"Adventure",
+                "reviews":717,
+                "stars":4,
+                "key": false
+            },
+            "item10":{
+                "title":"The Matrix",
+                "image":"https://image.tmdb.org/t/p/original/l4QHerTSbMI7qgvasqxP36pqjN6.jpg",
+                "tag":"Science Fiction",
+                "reviews":1413,
+                "stars":5,
+                "key": false
+            },
+            "item11":{
+                "title":"The Dark Knight",
+                "image":"https://image.tmdb.org/t/p/original/pbEkjhdfP7yuDcMB78YEZwgD4IN.jpg",
+                "tag":"Thriller",
+                "reviews":514,
+                "stars":4,
+                "key": false
+            },
+            "item12":{
+                "title":"Everything Everywhere All at Once",
+                "image":"https://image.tmdb.org/t/p/original/tt79dbOPd9Z9ykEOpvckttgYXwH.jpg",
+                "tag":"Science Fiction",
+                "reviews":75,
+                "stars":5,
+                "key": false
+            },
+            "item13":{
+                "title":"The Lord of the Rings: The Fellowship of the Ring",
+                "image":"https://image.tmdb.org/t/p/original/gU84vBGG2x8K3x1zrz4SggiN5hr.jpg",
+                "tag":"Fantasy",
+                "reviews":583,
+                "stars":3,
+                "key": false
+            },
+            "item14":{
+                "title":"Avengers: Infinity War",
+                "image":"https://image.tmdb.org/t/p/original/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+                "tag":"Adventure",
+                "reviews":631,
+                "stars":4,
+                "key": false
+            }
+        }
+    },
+
+    "carousel4":{
+        "title": "All time comedy",
+        "items":{
+            "item1":{
+                "title":"Fight Club",
+                "image":"https://image.tmdb.org/t/p/original/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+                "tag":"Drama",
+                "reviews":5421,
+                "stars":5,
+                "key": false
+            },
+            "item2":{
+                "title":"The Wolf of Wall Street",
+                "image":"https://image.tmdb.org/t/p/original/br7n8b3ELexcvs6l30IH2x9P2ux.jpg",
+                "tag":"crime",
+                "reviews":122,
+                "stars":4,
+                "key": false
+            },
+            "item3":{
+                "title":"Forrest Gump",
+                "image":"https://image.tmdb.org/t/p/original/3h1JZGDhZ8nzxdgvkxha0qBqi05.jpg",
+                "tag":"Romance",
+                "reviews":7223,
+                "stars":5,
+                "key": false
+            },
+            "item4":{
+                "title":"Up",
+                "image":"https://image.tmdb.org/t/p/original/hGGC9gKo7CFE3fW07RA587e5kol.jpg",
+                "tag":"Animation",
+                "reviews":924,
+                "stars":4,
+                "key": false
+            },
+            "item5":{
+                "title":"Shrek",
+                "image":"https://image.tmdb.org/t/p/original/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+                "tag":"Animation",
+                "reviews":1025,
+                "stars":3,
+                "key": false
+            },
+            "item6":{
+                "title":"Deadpool",
+                "image":"https://image.tmdb.org/t/p/original/en971MEXui9diirXlogOrPKmsEn.jpg",
+                "tag":"Action",
+                "reviews":3226,
+                "stars":4,
+                "key": false
+            },
+            "item7":{
+                "title":"Toy Story",
+                "image":"https://image.tmdb.org/t/p/original/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
+                "tag":"Adventure",
+                "reviews":1127,
+                "stars":3,
+                "key": false
+            },
+            "item8":{
+                "title":"Fight Club",
+                "image":"https://image.tmdb.org/t/p/original/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+                "tag":"Drama",
+                "reviews":5421,
+                "stars":5,
+                "key": false
+            },
+            "item9":{
+                "title":"The Wolf of Wall Street",
+                "image":"https://image.tmdb.org/t/p/original/br7n8b3ELexcvs6l30IH2x9P2ux.jpg",
+                "tag":"crime",
+                "reviews":122,
+                "stars":4,
+                "key": false
+            },
+            "item10":{
+                "title":"Forrest Gump",
+                "image":"https://image.tmdb.org/t/p/original/3h1JZGDhZ8nzxdgvkxha0qBqi05.jpg",
+                "tag":"Romance",
+                "reviews":7223,
+                "stars":5,
+                "key": false
+            },
+            "item11":{
+                "title":"Up",
+                "image":"https://image.tmdb.org/t/p/original/hGGC9gKo7CFE3fW07RA587e5kol.jpg",
+                "tag":"Animation",
+                "reviews":924,
+                "stars":4,
+                "key": false
+            },
+            "item12":{
+                "title":"Shrek",
+                "image":"https://image.tmdb.org/t/p/original/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+                "tag":"Animation",
+                "reviews":1025,
+                "stars":3,
+                "key": false
+            },
+            "item13":{
+                "title":"Deadpool",
+                "image":"https://image.tmdb.org/t/p/original/en971MEXui9diirXlogOrPKmsEn.jpg",
+                "tag":"Action",
+                "reviews":3226,
+                "stars":4,
+                "key": false
+            },
+            "item14":{
+                "title":"Toy Story",
+                "image":"https://image.tmdb.org/t/p/original/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
+                "tag":"Adventure",
+                "reviews":1127,
+                "stars":3,
+                "key": false
+            }
+        }
+    }
+
+}

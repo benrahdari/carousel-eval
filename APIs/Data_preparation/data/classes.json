@@ -1,0 +1,1794 @@
+{
+    "Desserts": {
+        "count": 15936,
+        "classes": {
+            "Cobblers": {
+                "count": 24
+            },
+            "Coffee Cakes": {
+                "count": 242
+            },
+            "Cookies": {
+                "count": 30
+            },
+            "Creme Brulee": {
+                "count": 458
+            },
+            "Crisps and Crumbles": {
+                "count": 95
+            },
+            "Cupcakes": {
+                "count": 120
+            },
+            "Danishes": {
+                "count": 5
+            },
+            "Divinity": {
+                "count": 24
+            },
+            "Doughnuts": {
+                "count": 79
+            },
+            "Drop Cookies": {
+                "count": 1
+            },
+            "Flan": {
+                "count": 30
+            },
+            "Fondant": {
+                "count": 120
+            },
+            "Frostings and Icings": {
+                "count": 35
+            },
+            "Fruitcakes": {
+                "count": 300
+            },
+            "Fudge": {
+                "count": 30
+            },
+            "Gingerbread Cookies": {
+                "count": 350
+            },
+            "Gingersnaps": {
+                "count": 80
+            },
+            "Angel Food Cakes": {
+                "count": 438
+            },
+            "Apple Pie": {
+                "count": 395
+            },
+            "Banana Breads": {
+                "count": 256
+            },
+            "Bar Cookies": {
+                "count": 59
+            },
+            "Biscotti": {
+                "count": 230
+            },
+            "Blintzes": {
+                "count": 37
+            },
+            "Blondies": {
+                "count": 13
+            },
+            "Blueberry Pie": {
+                "count": 521
+            },
+            "Brownies": {
+                "count": 168
+            },
+            "Cakes": {
+                "count": 299
+            },
+            "Carrot Cakes": {
+                "count": 372
+            },
+            "Cheesecakes": {
+                "count": 240
+            },
+            "Cherry Pie": {
+                "count": 502
+            },
+            "Chess Pie": {
+                "count": 11
+            },
+            "Chocolate Cakes": {
+                "count": 484
+            },
+            "Chocolate Chip Cookies": {
+                "count": 243
+            },
+            "Chocolate Fudge": {
+                "count": 323
+            },
+            "Christmas Cookies": {
+                "count": 247
+            },
+            "Cinnamon Rolls": {
+                "count": 221
+            },
+            "Ice Cream": {
+                "count": 215
+            },
+            "Jell-O Salads": {
+                "count": 163
+            },
+            "Key Lime Pie": {
+                "count": 619
+            },
+            "Kolache": {
+                "count": 108
+            },
+            "Lemon Bars": {
+                "count": 241
+            },
+            "Macaroons": {
+                "count": 189
+            },
+            "Mincemeat Pie": {
+                "count": 41
+            },
+            "Monkey Bread": {
+                "count": 146
+            },
+            "Mousses": {
+                "count": 74
+            },
+            "Muffins": {
+                "count": 99
+            },
+            "Oatmeal Cookies": {
+                "count": 342
+            },
+            "Pastries": {
+                "count": 36
+            },
+            "Pavlovas": {
+                "count": 100
+            },
+            "Peanut Butter Cookies": {
+                "count": 524
+            },
+            "Pecan Pie": {
+                "count": 386
+            },
+            "Pie Crusts": {
+                "count": 109
+            },
+            "Pies": {
+                "count": 54
+            },
+            "Popovers and Yorkshire Puddings": {
+                "count": 139
+            },
+            "Pound Cakes": {
+                "count": 39
+            },
+            "Pumpkin Breads": {
+                "count": 351
+            },
+            "Pumpkin Pie": {
+                "count": 256
+            },
+            "Rhubarb Pie": {
+                "count": 320
+            },
+            "Rice Puddings": {
+                "count": 249
+            },
+            "Sandwich Cookies": {
+                "count": 271
+            },
+            "Scones": {
+                "count": 41
+            },
+            "Shortbread": {
+                "count": 94
+            },
+            "Shortcakes": {
+                "count": 60
+            },
+            "Slab Pie": {
+                "count": 58
+            },
+            "Snickerdoodles": {
+                "count": 21
+            },
+            "Spice Cakes": {
+                "count": 502
+            },
+            "Spritz Cookies": {
+                "count": 64
+            },
+            "Strawberry Pie": {
+                "count": 901
+            },
+            "Strawberry Shortcakes": {
+                "count": 555
+            },
+            "Sugar Cookies": {
+                "count": 293
+            },
+            "Sweet Potato Pie": {
+                "count": 495
+            },
+            "Thumbprint Cookies": {
+                "count": 12
+            },
+            "Tiramisu": {
+                "count": 64
+            },
+            "Toffee": {
+                "count": 89
+            },
+            "Tortes": {
+                "count": 26
+            },
+            "Truffles": {
+                "count": 140
+            },
+            "Upside-Down Cakes": {
+                "count": 127
+            },
+            "Whoopie Pies": {
+                "count": 23
+            },
+            "Zucchini Breads": {
+                "count": 218
+            }
+        }
+    },
+    "Beverages": {
+        "count": 1655,
+        "classes": {
+            "Cocktails": {
+                "count": 187
+            },
+            "Eggnog": {
+                "count": 72
+            },
+            "Bloody Marys": {
+                "count": 156
+            },
+            "Jell-O Shots": {
+                "count": 52
+            },
+            "Lemonade": {
+                "count": 396
+            },
+            "Margaritas": {
+                "count": 236
+            },
+            "Mojitos": {
+                "count": 215
+            },
+            "Punch": {
+                "count": 32
+            },
+            "Sangrias": {
+                "count": 146
+            },
+            "Smoothies": {
+                "count": 163
+            }
+        }
+    },
+    "Breakfast and Brunch": {
+        "count": 2908,
+        "classes": {
+            "Coffee Cakes": {
+                "count": 242
+            },
+            "Danishes": {
+                "count": 5
+            },
+            "Doughnuts": {
+                "count": 79
+            },
+            "English Muffins": {
+                "count": 104
+            },
+            "French Toast": {
+                "count": 346
+            },
+            "Frittatas": {
+                "count": 129
+            },
+            "Granola": {
+                "count": 77
+            },
+            "Bagels": {
+                "count": 19
+            },
+            "Blintzes": {
+                "count": 37
+            },
+            "Breakfast Burritos": {
+                "count": 245
+            },
+            "Breakfast Casseroles": {
+                "count": 522
+            },
+            "Breakfast Potatoes": {
+                "count": 367
+            },
+            "Breakfast Stratas": {
+                "count": 105
+            },
+            "Cinnamon Rolls": {
+                "count": 221
+            },
+            "Oatmeal": {
+                "count": 110
+            },
+            "Omelets": {
+                "count": 118
+            },
+            "Overnight Oats": {
+                "count": 51
+            },
+            "Pancakes": {
+                "count": 74
+            },
+            "Waffles": {
+                "count": 57
+            }
+        }
+    },
+    "Vegetables": {
+        "count": 7591,
+        "classes": {
+            "Coleslaws": {
+                "count": 111
+            },
+            "Artichoke Dips": {
+                "count": 231
+            },
+            "Baked Beans": {
+                "count": 257
+            },
+            "Breakfast Potatoes": {
+                "count": 367
+            },
+            "Broccoli Salads": {
+                "count": 872
+            },
+            "Butternut Squash Soups": {
+                "count": 299
+            },
+            "Cabbage Rolls": {
+                "count": 233
+            },
+            "Carrot Cakes": {
+                "count": 372
+            },
+            "Lentil Soups": {
+                "count": 333
+            },
+            "Lettuce Wraps": {
+                "count": 65
+            },
+            "Mashed Potatoes": {
+                "count": 336
+            },
+            "Mushroom Soups": {
+                "count": 385
+            },
+            "Mushrooms": {
+                "count": 81
+            },
+            "Potato Pancakes": {
+                "count": 205
+            },
+            "Potato Salads": {
+                "count": 721
+            },
+            "Potato Soups": {
+                "count": 615
+            },
+            "Tomato Salads": {
+                "count": 720
+            },
+            "Vegetable Side Dishes": {
+                "count": 1104
+            },
+            "Vegetables A to Z": {
+                "count": 85
+            },
+            "Winter Squash": {
+                "count": 174
+            },
+            "Yams": {
+                "count": 25
+            }
+        }
+    },
+    "Salads": {
+        "count": 8115,
+        "classes": {
+            "Coleslaws": {
+                "count": 111
+            },
+            "Egg Salads": {
+                "count": 483
+            },
+            "Fruit Salads": {
+                "count": 1028
+            },
+            "Green Salads": {
+                "count": 859
+            },
+            "Broccoli Salads": {
+                "count": 872
+            },
+            "Chicken Salads": {
+                "count": 1160
+            },
+            "Jell-O Salads": {
+                "count": 163
+            },
+            "Pasta Salads": {
+                "count": 930
+            },
+            "Potato Salads": {
+                "count": 721
+            },
+            "Salads": {
+                "count": 149
+            },
+            "Taco Salads": {
+                "count": 516
+            },
+            "Tomato Salads": {
+                "count": 720
+            },
+            "Tuna Salads": {
+                "count": 279
+            },
+            "Waldorf Salads": {
+                "count": 124
+            }
+        }
+    },
+    "Breads": {
+        "count": 3114,
+        "classes": {
+            "Cornbread": {
+                "count": 249
+            },
+            "Crackers": {
+                "count": 42
+            },
+            "English Muffins": {
+                "count": 104
+            },
+            "Flatbreads": {
+                "count": 68
+            },
+            "Garlic Bread": {
+                "count": 430
+            },
+            "Bagels": {
+                "count": 19
+            },
+            "Banana Breads": {
+                "count": 256
+            },
+            "Biscotti": {
+                "count": 230
+            },
+            "Biscuits": {
+                "count": 80
+            },
+            "Cinnamon Rolls": {
+                "count": 221
+            },
+            "Irish Soda Bread": {
+                "count": 96
+            },
+            "Monkey Bread": {
+                "count": 146
+            },
+            "Muffins": {
+                "count": 99
+            },
+            "Popovers and Yorkshire Puddings": {
+                "count": 139
+            },
+            "Pumpkin Breads": {
+                "count": 351
+            },
+            "Scones": {
+                "count": 41
+            },
+            "Tortillas": {
+                "count": 130
+            },
+            "Whole Wheat Breads": {
+                "count": 87
+            },
+            "Yeast Breads": {
+                "count": 108
+            },
+            "Zucchini Breads": {
+                "count": 218
+            }
+        }
+    },
+    "Grains": {
+        "count": 1874,
+        "classes": {
+            "Cornbread": {
+                "count": 249
+            },
+            "Fried Rice": {
+                "count": 395
+            },
+            "Grits": {
+                "count": 76
+            },
+            "Oatmeal": {
+                "count": 110
+            },
+            "Overnight Oats": {
+                "count": 51
+            },
+            "Quinoa": {
+                "count": 99
+            },
+            "Rice Casseroles": {
+                "count": 285
+            },
+            "Rice Pilaf": {
+                "count": 152
+            },
+            "Rice Puddings": {
+                "count": 249
+            },
+            "Spanish Rice": {
+                "count": 208
+            }
+        }
+    },
+    "Beef Recipes": {
+        "count": 1095,
+        "classes": {
+            "Corned Beef": {
+                "count": 537
+            },
+            "Filet Mignon": {
+                "count": 170
+            },
+            "Flank Steak": {
+                "count": 241
+            },
+            "Flat Iron Steak": {
+                "count": 77
+            },
+            "Ground Beef": {
+                "count": 70
+            }
+        }
+    },
+    "Protein": {
+        "count": 9226,
+        "classes": {
+            "Corned Beef": {
+                "count": 537
+            },
+            "Crab Cakes": {
+                "count": 146
+            },
+            "Deviled Eggs": {
+                "count": 93
+            },
+            "Egg Rolls": {
+                "count": 228
+            },
+            "Egg Salads": {
+                "count": 483
+            },
+            "Filet Mignon": {
+                "count": 170
+            },
+            "Flank Steak": {
+                "count": 241
+            },
+            "Flat Iron Steak": {
+                "count": 77
+            },
+            "Fried Chicken": {
+                "count": 480
+            },
+            "Ground Beef": {
+                "count": 70
+            },
+            "Ground Chicken": {
+                "count": 326
+            },
+            "Ground Lamb": {
+                "count": 189
+            },
+            "Ground Pork": {
+                "count": 227
+            },
+            "Ground Turkey": {
+                "count": 257
+            },
+            "Baked Beans": {
+                "count": 257
+            },
+            "Beef Recipes": {
+                "count": 345
+            },
+            "Beef Stews": {
+                "count": 461
+            },
+            "Beef Stroganoff": {
+                "count": 348
+            },
+            "Beef Tenderloin": {
+                "count": 452
+            },
+            "Lamb": {
+                "count": 93
+            },
+            "Meatballs": {
+                "count": 113
+            },
+            "Meatloaf": {
+                "count": 30
+            },
+            "Pork": {
+                "count": 131
+            },
+            "Pork Chops": {
+                "count": 401
+            },
+            "Pork Ribs": {
+                "count": 261
+            },
+            "Pork Shoulder": {
+                "count": 303
+            },
+            "Pork Tenderloin": {
+                "count": 468
+            },
+            "Pot Roast": {
+                "count": 485
+            },
+            "Prime Rib": {
+                "count": 149
+            },
+            "Pulled Pork": {
+                "count": 218
+            },
+            "Ribs": {
+                "count": 67
+            },
+            "Roasts": {
+                "count": 90
+            },
+            "Salisbury Steak": {
+                "count": 281
+            },
+            "Salmon": {
+                "count": 280
+            },
+            "Sausage": {
+                "count": 109
+            },
+            "Seitan": {
+                "count": 33
+            },
+            "Swiss Steak": {
+                "count": 187
+            },
+            "Tempeh": {
+                "count": 44
+            },
+            "Tofu": {
+                "count": 49
+            },
+            "Turkey": {
+                "count": 47
+            }
+        }
+    },
+    "Appetizers and Snacks": {
+        "count": 4104,
+        "classes": {
+            "Crab Cakes": {
+                "count": 146
+            },
+            "Deviled Eggs": {
+                "count": 93
+            },
+            "Dumplings": {
+                "count": 77
+            },
+            "Egg Rolls": {
+                "count": 228
+            },
+            "Empanadas": {
+                "count": 124
+            },
+            "Antipasti": {
+                "count": 17
+            },
+            "Artichoke Dips": {
+                "count": 231
+            },
+            "Bruschetta": {
+                "count": 361
+            },
+            "Buffalo Chicken Dips": {
+                "count": 529
+            },
+            "Buffalo Chicken Wings": {
+                "count": 214
+            },
+            "Ceviche": {
+                "count": 159
+            },
+            "Cheese Balls": {
+                "count": 57
+            },
+            "Cheese Fondue": {
+                "count": 251
+            },
+            "Guacamole": {
+                "count": 251
+            },
+            "Hummus": {
+                "count": 192
+            },
+            "Hushpuppies": {
+                "count": 11
+            },
+            "Jalapeno Poppers": {
+                "count": 193
+            },
+            "Lettuce Wraps": {
+                "count": 65
+            },
+            "Nachos": {
+                "count": 59
+            },
+            "Pate": {
+                "count": 26
+            },
+            "Samosas": {
+                "count": 74
+            },
+            "Spinach Dips": {
+                "count": 343
+            },
+            "Stuffed Mushrooms": {
+                "count": 339
+            },
+            "Tapas": {
+                "count": 64
+            }
+        }
+    },
+    "Snacks": {
+        "count": 378,
+        "classes": {
+            "Crackers": {
+                "count": 42
+            },
+            "Energy Balls": {
+                "count": 13
+            },
+            "Fries": {
+                "count": 63
+            },
+            "Jerky": {
+                "count": 18
+            },
+            "Popcorn": {
+                "count": 43
+            },
+            "Pretzels": {
+                "count": 46
+            },
+            "Pumpkin Seeds": {
+                "count": 148
+            },
+            "Road Trip Snacks": {
+                "count": 5
+            }
+        }
+    },
+    "Sauces and Condiments": {
+        "count": 1753,
+        "classes": {
+            "Cranberry Sauces": {
+                "count": 418
+            },
+            "Gravies": {
+                "count": 12
+            },
+            "Brines": {
+                "count": 25
+            },
+            "Jams and Jellies": {
+                "count": 91
+            },
+            "Pestos": {
+                "count": 75
+            },
+            "Pickles": {
+                "count": 251
+            },
+            "Relishes": {
+                "count": 22
+            },
+            "Salad Dressings": {
+                "count": 599
+            },
+            "Salsas": {
+                "count": 260
+            }
+        }
+    },
+    "Fruits": {
+        "count": 3962,
+        "classes": {
+            "Cranberry Sauces": {
+                "count": 418
+            },
+            "Fruit Salads": {
+                "count": 1028
+            },
+            "Apple Pie": {
+                "count": 395
+            },
+            "Applesauce": {
+                "count": 223
+            },
+            "Banana Breads": {
+                "count": 256
+            },
+            "Blueberry Pie": {
+                "count": 521
+            },
+            "Cherry Pie": {
+                "count": 502
+            },
+            "Key Lime Pie": {
+                "count": 619
+            }
+        }
+    },
+    "Dietary Preferences": {
+        "count": 294,
+        "classes": {
+            "Diabetic": {
+                "count": 3
+            },
+            "Gluten-Free": {
+                "count": 34
+            },
+            "Healthy Recipes": {
+                "count": 127
+            },
+            "Keto": {
+                "count": 4
+            },
+            "Kosher": {
+                "count": 12
+            },
+            "Mediterranean Diet": {
+                "count": 10
+            },
+            "Paleo": {
+                "count": 6
+            },
+            "Raw Food Diet": {
+                "count": 5
+            },
+            "Sugar-Free Recipes": {
+                "count": 50
+            },
+            "TVP Recipes": {
+                "count": 3
+            },
+            "Vegan": {
+                "count": 19
+            },
+            "Vegetarian": {
+                "count": 19
+            },
+            "Whole30": {
+                "count": 2
+            }
+        }
+    },
+    "Festive recipes": {
+        "count": 459,
+        "classes": {
+            "Diwali": {
+                "count": 17
+            },
+            "Easter": {
+                "count": 15
+            },
+            "Father's Day": {
+                "count": 2
+            },
+            "Christmas": {
+                "count": 22
+            },
+            "Christmas Cookies": {
+                "count": 247
+            },
+            "Halloween": {
+                "count": 33
+            },
+            "Hanukkah": {
+                "count": 10
+            },
+            "July 4th": {
+                "count": 3
+            },
+            "Kwanzaa": {
+                "count": 9
+            },
+            "Labor Day": {
+                "count": 2
+            },
+            "Lent": {
+                "count": 2
+            },
+            "Lunar New Year": {
+                "count": 1
+            },
+            "Mardi Gras": {
+                "count": 18
+            },
+            "Mother's Day": {
+                "count": 4
+            },
+            "New Year's": {
+                "count": 4
+            },
+            "Passover": {
+                "count": 4
+            },
+            "Purim": {
+                "count": 5
+            },
+            "Ramadan": {
+                "count": 4
+            },
+            "Rosh Hashanah": {
+                "count": 10
+            },
+            "Seder": {
+                "count": 10
+            },
+            "St. Patrick's Day": {
+                "count": 7
+            },
+            "Thanksgiving": {
+                "count": 27
+            },
+            "Valentine's Day": {
+                "count": 3
+            }
+        }
+    },
+    "Main courses": {
+        "count": 20024,
+        "classes": {
+            "Eggplant Parmesan": {
+                "count": 241
+            },
+            "Enchiladas": {
+                "count": 169
+            },
+            "Etouffee": {
+                "count": 98
+            },
+            "Fajitas": {
+                "count": 85
+            },
+            "Falafel": {
+                "count": 53
+            },
+            "Goulash": {
+                "count": 83
+            },
+            "Beef Stews": {
+                "count": 461
+            },
+            "Beef Stroganoff": {
+                "count": 348
+            },
+            "Bulgogi": {
+                "count": 45
+            },
+            "Burgers": {
+                "count": 120
+            },
+            "Burritos": {
+                "count": 51
+            },
+            "Cabbage Rolls": {
+                "count": 233
+            },
+            "Calzones": {
+                "count": 28
+            },
+            "Casseroles": {
+                "count": 90
+            },
+            "Chicken Adobo": {
+                "count": 48
+            },
+            "Chicken and Dumplings": {
+                "count": 1310
+            },
+            "Chicken Cacciatore": {
+                "count": 256
+            },
+            "Chicken Cordon Bleu": {
+                "count": 140
+            },
+            "Chicken Marsala": {
+                "count": 516
+            },
+            "Chicken Parmesan": {
+                "count": 457
+            },
+            "Chicken Piccata": {
+                "count": 78
+            },
+            "Chicken Teriyaki": {
+                "count": 908
+            },
+            "Chilaquiles": {
+                "count": 207
+            },
+            "Chiles Rellenos": {
+                "count": 116
+            },
+            "Chili Recipes": {
+                "count": 431
+            },
+            "Gyros": {
+                "count": 18
+            },
+            "Homemade Pasta": {
+                "count": 247
+            },
+            "Jambalayas": {
+                "count": 144
+            },
+            "Kalbi": {
+                "count": 40
+            },
+            "Lasagna": {
+                "count": 122
+            },
+            "Linguine": {
+                "count": 152
+            },
+            "LuncMacaroni and Cheese": {
+                "count": 499
+            },
+            "Manicotti": {
+                "count": 130
+            },
+            "Meatballs": {
+                "count": 113
+            },
+            "Meatloaf": {
+                "count": 30
+            },
+            "Noodle Casseroles": {
+                "count": 295
+            },
+            "Pad Thai": {
+                "count": 312
+            },
+            "Paella": {
+                "count": 75
+            },
+            "Pancit": {
+                "count": 35
+            },
+            "Panini": {
+                "count": 105
+            },
+            "Pasta Carbonara": {
+                "count": 569
+            },
+            "Pasta Primavera": {
+                "count": 681
+            },
+            "Pasties": {
+                "count": 49
+            },
+            "Pierogies": {
+                "count": 31
+            },
+            "Pizza": {
+                "count": 115
+            },
+            "Pizza Dough": {
+                "count": 99
+            },
+            "Polenta": {
+                "count": 79
+            },
+            "Pork Chops": {
+                "count": 401
+            },
+            "Pork Ribs": {
+                "count": 261
+            },
+            "Pork Shoulder": {
+                "count": 303
+            },
+            "Pork Tenderloin": {
+                "count": 468
+            },
+            "Pot Pies": {
+                "count": 192
+            },
+            "Pot Roast": {
+                "count": 485
+            },
+            "Potato Pancakes": {
+                "count": 205
+            },
+            "Prime Rib": {
+                "count": 149
+            },
+            "Pulled Pork": {
+                "count": 218
+            },
+            "Quesadillas": {
+                "count": 144
+            },
+            "Quiches": {
+                "count": 56
+            },
+            "Ravioli": {
+                "count": 299
+            },
+            "Refried Beans": {
+                "count": 212
+            },
+            "Ribs": {
+                "count": 67
+            },
+            "Rice Casseroles": {
+                "count": 285
+            },
+            "Rice Pilaf": {
+                "count": 152
+            },
+            "Risotto": {
+                "count": 184
+            },
+            "Roasts": {
+                "count": 90
+            },
+            "Salisbury Steak": {
+                "count": 281
+            },
+            "Salmon": {
+                "count": 280
+            },
+            "Sandwiches": {
+                "count": 202
+            },
+            "Shepherd's Pie": {
+                "count": 182
+            },
+            "Shrimp and Grits": {
+                "count": 632
+            },
+            "Shrimp Scampi": {
+                "count": 521
+            },
+            "Sliders": {
+                "count": 20
+            },
+            "Sloppy Joes": {
+                "count": 82
+            },
+            "Spaghetti": {
+                "count": 73
+            },
+            "Spanish Rice": {
+                "count": 208
+            },
+            "Stir-Fries": {
+                "count": 422
+            },
+            "Stuffed Peppers": {
+                "count": 855
+            },
+            "Sushi": {
+                "count": 95
+            },
+            "Swiss Steak": {
+                "count": 187
+            },
+            "Tacos": {
+                "count": 107
+            },
+            "Tamales": {
+                "count": 71
+            },
+            "Tater Tot Casseroles": {
+                "count": 343
+            },
+            "Tetrazzini": {
+                "count": 71
+            },
+            "Tortellini": {
+                "count": 49
+            },
+            "Tostadas": {
+                "count": 58
+            },
+            "Tuna Casseroles": {
+                "count": 586
+            },
+            "Ziti": {
+                "count": 16
+            }
+        }
+    },
+    "Vegetarian": {
+        "count": 423,
+        "classes": {
+            "Eggplant Parmesan": {
+                "count": 241
+            },
+            "Falafel": {
+                "count": 53
+            },
+            "Seitan": {
+                "count": 33
+            },
+            "Tempeh": {
+                "count": 44
+            },
+            "Tofu": {
+                "count": 49
+            },
+            "TVP Recipes": {
+                "count": 3
+            }
+        }
+    },
+    "Mexican": {
+        "count": 2877,
+        "classes": {
+            "Enchiladas": {
+                "count": 169
+            },
+            "Fajitas": {
+                "count": 85
+            },
+            "Breakfast Burritos": {
+                "count": 245
+            },
+            "Burritos": {
+                "count": 51
+            },
+            "Chilaquiles": {
+                "count": 207
+            },
+            "Chiles Rellenos": {
+                "count": 116
+            },
+            "Guacamole": {
+                "count": 251
+            },
+            "Jalapeno Poppers": {
+                "count": 193
+            },
+            "Nachos": {
+                "count": 59
+            },
+            "Quesadillas": {
+                "count": 144
+            },
+            "Refried Beans": {
+                "count": 212
+            },
+            "Salsas": {
+                "count": 260
+            },
+            "Taco Salads": {
+                "count": 516
+            },
+            "Tacos": {
+                "count": 107
+            },
+            "Tamales": {
+                "count": 71
+            },
+            "Tex-Mex": {
+                "count": 3
+            },
+            "Tortillas": {
+                "count": 130
+            },
+            "Tostadas": {
+                "count": 58
+            }
+        }
+    },
+    "Mediterranean": {
+        "count": 53,
+        "classes": {
+            "Falafel": {
+                "count": 53
+            }
+        }
+    },
+    "Pasta recipes": {
+        "count": 403,
+        "classes": {
+            "Fettuccini": {
+                "count": 321
+            },
+            "Gnocchi": {
+                "count": 82
+            }
+        }
+    },
+    "Italian": {
+        "count": 4784,
+        "classes": {
+            "Fettuccini": {
+                "count": 321
+            },
+            "Gnocchi": {
+                "count": 82
+            },
+            "Antipasti": {
+                "count": 17
+            },
+            "Bruschetta": {
+                "count": 361
+            },
+            "Calzones": {
+                "count": 28
+            },
+            "Homemade Pasta": {
+                "count": 247
+            },
+            "Lasagna": {
+                "count": 122
+            },
+            "Linguine": {
+                "count": 152
+            },
+            "Manicotti": {
+                "count": 130
+            },
+            "Minestrone Soups": {
+                "count": 91
+            },
+            "Pasta Carbonara": {
+                "count": 569
+            },
+            "Pasta Primavera": {
+                "count": 681
+            },
+            "Pasta Salads": {
+                "count": 930
+            },
+            "Pestos": {
+                "count": 75
+            },
+            "Pizza": {
+                "count": 115
+            },
+            "Pizza Dough": {
+                "count": 99
+            },
+            "Polenta": {
+                "count": 79
+            },
+            "Ravioli": {
+                "count": 299
+            },
+            "Risotto": {
+                "count": 184
+            },
+            "Spaghetti": {
+                "count": 73
+            },
+            "Tiramisu": {
+                "count": 64
+            },
+            "Tortellini": {
+                "count": 49
+            },
+            "Ziti": {
+                "count": 16
+            }
+        }
+    },
+    "Soups": {
+        "count": 3011,
+        "classes": {
+            "French Onion Soups": {
+                "count": 347
+            },
+            "Gazpacho": {
+                "count": 95
+            },
+            "Borscht": {
+                "count": 77
+            },
+            "Butternut Squash Soups": {
+                "count": 299
+            },
+            "Chicken Noodle Soups": {
+                "count": 477
+            },
+            "Chowders": {
+                "count": 37
+            },
+            "Gumbos": {
+                "count": 14
+            },
+            "Lentil Soups": {
+                "count": 333
+            },
+            "Minestrone Soups": {
+                "count": 91
+            },
+            "Mushroom Soups": {
+                "count": 385
+            },
+            "Potato Soups": {
+                "count": 615
+            },
+            "Soups": {
+                "count": 71
+            },
+            "Split Pea Soups": {
+                "count": 93
+            },
+            "Stews": {
+                "count": 77
+            }
+        }
+    },
+    "Chicken recipes": {
+        "count": 6899,
+        "classes": {
+            "Fried Chicken": {
+                "count": 480
+            },
+            "Ground Chicken": {
+                "count": 326
+            },
+            "Buffalo Chicken Dips": {
+                "count": 529
+            },
+            "Buffalo Chicken Wings": {
+                "count": 214
+            },
+            "Chicken Adobo": {
+                "count": 48
+            },
+            "Chicken and Dumplings": {
+                "count": 1310
+            },
+            "Chicken Cacciatore": {
+                "count": 256
+            },
+            "Chicken Cordon Bleu": {
+                "count": 140
+            },
+            "Chicken Marsala": {
+                "count": 516
+            },
+            "Chicken Noodle Soups": {
+                "count": 477
+            },
+            "Chicken Parmesan": {
+                "count": 457
+            },
+            "Chicken Piccata": {
+                "count": 78
+            },
+            "Chicken Salads": {
+                "count": 1160
+            },
+            "Chicken Teriyaki": {
+                "count": 908
+            }
+        }
+    },
+    "Chinese": {
+        "count": 395,
+        "classes": {
+            "Fried Rice": {
+                "count": 395
+            }
+        }
+    },
+    "Cooking Techniques": {
+        "count": 390,
+        "classes": {
+            "Air Fryer Recipes": {
+                "count": 15
+            },
+            "Canning and Preserving": {
+                "count": 18
+            },
+            "Instant Pot": {
+                "count": 62
+            },
+            "Slow Cooker Recipes": {
+                "count": 65
+            },
+            "Sous Vide Recipes": {
+                "count": 16
+            },
+            "Turkey Brines": {
+                "count": 214
+            }
+        }
+    },
+    "Cakes": {
+        "count": 1962,
+        "classes": {
+            "Angel Food Cakes": {
+                "count": 438
+            },
+            "Carrot Cakes": {
+                "count": 372
+            },
+            "Chocolate Cakes": {
+                "count": 484
+            },
+            "Pound Cakes": {
+                "count": 39
+            },
+            "Spice Cakes": {
+                "count": 502
+            },
+            "Upside-Down Cakes": {
+                "count": 127
+            }
+        }
+    },
+    "Dairy": {
+        "count": 548,
+        "classes": {
+            "Cheese Balls": {
+                "count": 57
+            },
+            "Cheese Fondue": {
+                "count": 251
+            },
+            "Cheesecakes": {
+                "count": 240
+            }
+        }
+    },
+    "Cuisine Types": {
+        "count": 159,
+        "classes": {
+            "Chinese": {
+                "count": 8
+            },
+            "Hawaiian": {
+                "count": 26
+            },
+            "Indian": {
+                "count": 20
+            },
+            "Italian": {
+                "count": 50
+            },
+            "Jewish": {
+                "count": 9
+            },
+            "Korean": {
+                "count": 18
+            },
+            "Mexican": {
+                "count": 28
+            }
+        }
+    },
+    "Cookies": {
+        "count": 1864,
+        "classes": {
+            "Chocolate Chip Cookies": {
+                "count": 243
+            },
+            "Oatmeal Cookies": {
+                "count": 342
+            },
+            "Peanut Butter Cookies": {
+                "count": 524
+            },
+            "Sandwich Cookies": {
+                "count": 271
+            },
+            "Shortbread": {
+                "count": 94
+            },
+            "Snickerdoodles": {
+                "count": 21
+            },
+            "Spritz Cookies": {
+                "count": 64
+            },
+            "Sugar Cookies": {
+                "count": 293
+            },
+            "Thumbprint Cookies": {
+                "count": 12
+            }
+        }
+    },
+    "Nutritional Value": {
+        "count": 18,
+        "classes": {
+            "High Fiber": {
+                "count": 1
+            },
+            "Low Calorie": {
+                "count": 4
+            },
+            "Low Fat": {
+                "count": 4
+            },
+            "Low Sodium": {
+                "count": 9
+            }
+        }
+    },
+    "Eggs": {
+        "count": 118,
+        "classes": {
+            "Omelets": {
+                "count": 118
+            }
+        }
+    },
+    "Asian": {
+        "count": 938,
+        "classes": {
+            "Pad Thai": {
+                "count": 312
+            },
+            "Pancit": {
+                "count": 35
+            },
+            "Samosas": {
+                "count": 74
+            },
+            "Stir-Fries": {
+                "count": 422
+            },
+            "Sushi": {
+                "count": 95
+            }
+        }
+    },
+    "Spanish": {
+        "count": 347,
+        "classes": {
+            "Paella": {
+                "count": 75
+            },
+            "Spanish Rice": {
+                "count": 208
+            },
+            "Tapas": {
+                "count": 64
+            }
+        }
+    },
+    "Sandwiches": {
+        "count": 125,
+        "classes": {
+            "Panini": {
+                "count": 105
+            },
+            "Sliders": {
+                "count": 20
+            }
+        }
+    },
+    "Pies": {
+        "count": 2899,
+        "classes": {
+            "Pecan Pie": {
+                "count": 386
+            },
+            "Pie Crusts": {
+                "count": 109
+            },
+            "Pot Pies": {
+                "count": 192
+            },
+            "Pumpkin Pie": {
+                "count": 256
+            },
+            "Rhubarb Pie": {
+                "count": 320
+            },
+            "Shepherd's Pie": {
+                "count": 182
+            },
+            "Slab Pie": {
+                "count": 58
+            },
+            "Strawberry Pie": {
+                "count": 901
+            },
+            "Sweet Potato Pie": {
+                "count": 495
+            }
+        }
+    },
+    "Occasion or Purpose": {
+        "count": 296,
+        "classes": {
+            "Picnic Recipes": {
+                "count": 30
+            },
+            "Potluck Recipes": {
+                "count": 101
+            },
+            "Quick and Easy Recipes": {
+                "count": 153
+            },
+            "Road Trip Snacks": {
+                "count": 5
+            },
+            "Tailgating": {
+                "count": 7
+            }
+        }
+    },
+    "Cocktails": {
+        "count": 146,
+        "classes": {
+            "Sangrias": {
+                "count": 146
+            }
+        }
+    },
+    "Seafood": {
+        "count": 2018,
+        "classes": {
+            "Shrimp and Grits": {
+                "count": 632
+            },
+            "Shrimp Scampi": {
+                "count": 521
+            },
+            "Tuna Casseroles": {
+                "count": 586
+            },
+            "Tuna Salads": {
+                "count": 279
+            }
+        }
+    }
+}

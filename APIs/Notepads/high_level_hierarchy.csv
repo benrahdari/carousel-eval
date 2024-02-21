@@ -1,0 +1,84 @@
+root,level_1
+Food Groups,Grains
+Food Groups,Fruits
+Food Groups,Vegetables
+Food Groups,Dairy
+Food Groups,Protein
+Food Groups,Fats and oils
+Food Groups,Seafood
+Cuisine Types,Italian
+Cuisine Types,Chinese
+Cuisine Types,Indian
+Cuisine Types,Mexican
+Cuisine Types,Mediterranean
+Cuisine Types,French
+Cuisine Types,Thai
+Cuisine Types,Japanese
+Cuisine Types,American
+Cuisine Types,Middle Eastern
+Cuisine Types,African
+Cuisine Types,Spanish
+Cuisine Types,British
+Cuisine Types,Caribbean
+Cuisine Types,German
+Dish Types,Appetizers
+Dish Types,Main courses
+Dish Types,Desserts
+Dish Types,Beverages
+Dish Types,Snacks
+Dish Types,Soups
+Dish Types,Salads
+Dish Types,Side dishes
+Dish Types,Sandwiches
+Dish Types,Cakes
+Dish Types,Pies
+Dish Types,Breads
+Cooking Techniques,Baking
+Cooking Techniques,Grilling
+Cooking Techniques,Steaming
+Cooking Techniques,Frying
+Cooking Techniques,Boiling
+Cooking Techniques,Roasting
+Cooking Techniques,Slow cooking
+Cooking Techniques,Microwaving
+Cooking Techniques,Poaching
+Dietary Preferences,Vegetarian
+Dietary Preferences,Vegan
+Dietary Preferences,Gluten-free
+Dietary Preferences,Keto
+Dietary Preferences,Paleo
+Dietary Preferences,Low-carb
+Dietary Preferences,Dairy-free
+Dietary Preferences,Nut-free
+Dietary Preferences,Halal
+Dietary Preferences,Kosher
+Ingredient-Based Categorization,Chicken
+Ingredient-Based Categorization,Pasta
+Ingredient-Based Categorization,Chocolate
+Ingredient-Based Categorization,Pork
+Ingredient-Based Categorization,Beef
+Ingredient-Based Categorization,Lamb
+Ingredient-Based Categorization,Rice
+Ingredient-Based Categorization,Potato
+Ingredient-Based Categorization,Fish
+Ingredient-Based Categorization,Tofu
+Ingredient-Based Categorization,Beans
+Ingredient-Based Categorization,Eggs
+Ingredient-Based Categorization,Cheese
+Occasion or Purpose,Breakfast
+Occasion or Purpose,Lunch
+Occasion or Purpose,Dinner
+Occasion or Purpose,Festive
+Occasion or Purpose,Quick and easy
+Occasion or Purpose,Party
+Occasion or Purpose,Picnic
+Occasion or Purpose,Summer
+Occasion or Purpose,Winter
+Nutritional Value,Low-calorie
+Nutritional Value,High-protein
+Nutritional Value,Low-fat
+Nutritional Value,High-fiber
+Nutritional Value,Low-sugar
+Nutritional Value,High-vitamin
+Nutritional Value,Low-sodium
+Nutritional Value,Antioxidant-rich

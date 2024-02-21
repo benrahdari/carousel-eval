@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>CARE - Experiment Center</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style type="text/css">
+
+        body { 
+            background: #f1f1f1;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        .card-sl {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .card-image img {
+            max-height: 100%;
+            max-width: 100%;
+            border-radius: 8px 8px 0px 0;
+        }
+        .card-action {
+            position: relative;
+            float: right;
+            margin-top: -25px;
+            margin-right: 20px;
+            z-index: 2;
+            color: #E26D5C;
+            background: #fff;
+            border-radius: 100%;
+            padding: 15px;
+            font-size: 15px;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+        }
+        .card-action:hover {
+            color: #fff;
+            background: #E26D5C;
+            -webkit-animation: pulse 1.5s infinite;
+        }
+        .card-button {
+            display: flex;
+            justify-content: center;
+            padding: 1px 0;
+            width: 100%;
+            background-color: #c2d9f6;
+            color: #fff;
+            border-radius: 0 0 8px 8px;
+        }
+        .card-button:hover {
+            text-decoration: none;
+            background-color: #1D3461;
+            color: #fff;
+
+        }
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .slider {
+            width: 99%;
+            margin: 10px auto;
+        }
+        .slick-slide {
+            margin: 0px 5px;
+        }
+        .slick-slide img {
+            width: 100%;
+        }
+        .slick-prev:before,
+        .slick-next:before {
+            color: black;
+        }
+        .slick-slide {
+            transition: all ease-in-out .3s;
+            opacity: .2;
+        }
+
+        .slick-active {
+            opacity: 1;
+        }
+
+        .slick-current {
+            opacity: 1;
+
+        }
+
+        .parent>.row {
+            display: flex;
+            align-items: center;
+        }
+
+        .col img {
+            width: 100%;
+            cursor: pointer;
+            transition: transform 1s;
+            object-fit: cover;
+        }
+
+        .col label {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .imgbgchk:checked+label>.tick_container {
+            opacity: 1;
+        }
+        .imgbgchk:checked+label>img {
+            transform: scale(1.05);
+            opacity: 0.3;
+        }
+
+        .tick_container {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .tick {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            padding: 6px 12px;
+            height: 40px;
+            width: 40px;
+            border-radius: 100%;
+        }
+
+        .text-ellipsis--1 {
+            overflow: hidden;
+            white-space: nowrap;
+
+        }
+
+        th {
+            font-size: small;
+        }
+    </style>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="info-fill" fill="currentColor" viewBox="0 0 18 18">
+            <path
+                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+        </symbol>
+    </svg>
+</head>
+
+<body>
+    <div id="main">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand p-0" href="#!">CARE: A Carousel Evaluation Tool<br>
+                    <h6 class="text-secondary"><small>Experiment Center</small></h6>
+                </a>
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-lg-0 ">
+
+                        <li class="nav-item p-2"><button class="btn btn-sm btn-secondary rounded" type="button"><a
+                                    class="text-light" href="center.html">Experiment Center</a></button></li>
+                        <li class="nav-item p-2"><button class="btn btn-sm btn-outline-secondary rounded"
+                                type="button"><a class="text-light" href="new.html">New Experiment</a></button></li>
+                        <li class="nav-item p-2"><button class="btn btn-sm btn-outline-secondary rounded"
+                                type="button"><a class="text-light" href="settings.html">Settings</a></button></li>
+
+                        <li class="nav-item"><button class="btn btn-sm btn-dark rounded backLink"
+                                type="button"></button></li>
+                        <li class="nav-item p-2"><button class="btn btn-sm btn-dark rounded backLink"
+                                type="button">Back</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-3">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-9">
+                    <article id="mainpannel">
+
+                        <h2 class="py-1 my-1">Experiment Center</h2>
+                        <a href="new.html" target="_self" class="btn btn-primary float-end "> Create a new Experiment</a>
+                        <h5 class="pt-2 mt-2 pb-0 mb-0">Existing experiments</h5>
+
+                        <p class="pb-1 mb-1 text-secondary"><small>View, modify or delete existing experiments using
+                                tables below.</small></p>
+
+                        <table id="experiments" class="table table-striped" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th style="width: 0%;"></th>
+                                    <th style="width: 5%;">HIT ID</th>
+                                    <th style="width: 25%;">Title</th>
+                                    <th style="width: 5%;">Replies</th>
+                                    <th style="width: 5%;">Active</th>
+                                    <th style="width: 10%;">Created at</th>
+                                    <th style="width: 5%;"></th>
+                                    <th style="width: 5%;"></th>
+                                    <th style="width: 5%;"></th>
+                                    <th style="width: 5%;"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody">
+                            </tbody>
+                        </table>
+
+                        <div class="continer mb-5 p-3">
+                            <div class="modal-footer">
+                                <button id="reload_table" class="btn btn-sm btn-success"><i class="fa fa-refresh" aria-hidden="true"></i> Reload</button>
+                            </div>
+                        </div>
+
+
+
+
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div id="exp-details" class="modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">HIT <span id="hitID"></span></h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="p-2 m-0 mb-2">
+                            <h5 class="p-0 m-0"><span id="taskName"></span></h5>
+                            <p class="fw-light small m-0">Created at <span id="hitDate"></span></p>
+                        </div>
+                        <div class="border border-1 border-secondary p-2 m-0 mb-2 bg-light rounded">
+                            <h6 class="p-0 m-0"><span>Task Summary</span></h6>
+                            <p class="fw-light small m-0"><span id="taskSumr"></span></p>
+                        </div>
+                        <ul class="list-group list-group-flush" style="overflow-y: auto; max-height: 250px;">
+
+                            <li class="list-group-item p-0 m-0 "> <span
+                                    class="float-start fs-6 fw-light px-1"><small>Visual Option</small></span>
+                                <span class="float-end fs-6"><small id="optVisual"></small></span>
+                            </li>
+                            <li class="list-group-item p-0 m-0"> <span
+                                    class="float-start fs-6 fw-light px-1"><small>Items per carousel</small></span>
+                                <span class="float-end fs-6"><small id="optIpc"></small></span>
+                            </li>
+                            <li class="list-group-item p-0 m-0"> <span
+                                    class="float-start fs-6 fw-light px-1"><small>Items to scroll</small></span>
+                                <span class="float-end fs-6"><small id="optIts"></small></span>
+                            </li>
+                            <li class="list-group-item p-0 m-0"> <span
+                                    class="float-start fs-6 fw-light px-1"><small>Show Arrows</small></span>
+                                <span class="float-end fs-6"><small id="optArrows"></small></span>
+                            </li>
+                            <li class="list-group-item p-0 m-0"> <span
+                                    class="float-start fs-6 fw-light px-1"><small>Show Dots</small></span>
+                                <span class="float-end fs-6"><small id="optDots"></small></span>
+                            </li>
+                            <li class="list-group-item p-0 m-0"> <span
+                                    class="float-start fs-6 fw-light px-1"><small>Infinit Loop</small></span>
+                                <span class="float-end fs-6"><small id="optLoop"></small></span>
+                            </li>
+                            <li class="list-group-item p-0 m-0"> <span
+                                    class="float-start fs-6 fw-light px-1"><small>Center Mode</small></span>
+                                <span class="float-end fs-6"><small id="optCenter"></small></span>
+                            </li>
+                            <li class="list-group-item p-0 m-0"> <span
+                                    class="float-start fs-6 fw-light px-1"><small>Daggable</small></span>
+                                <span class="float-end fs-6"><small id="optDrag"></small></span>
+                            </li>
+                            <li class="list-group-item p-0 m-0"> <span
+                                    class="float-start fs-6 fw-light px-1"><small>Show Title</small></span>
+                                <span class="float-end fs-6"><small id="optTitle"></small></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="footer position-fixed bottom-0 w-100">
+            <footer class="py-1 bg-dark">
+                <div class="container">
+                    <p class="m-0 text-center text-white">Copyright &copy; CARE 2024</p>
+                </div>
+            </footer>
+        </nav>
+    </div>
+
+    <div class="position-fixed bottom-0 end-0 p-2 my-4" style="z-index: 11">
+        <div id="toast" class="toast hide bg-success" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong id="toast_title" class="me-auto"></strong>
+                <small id="toast_date"></small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div id="toast_body" class="toast-body">
+            </div>
+        </div>
+    </div>
+    <input id="test" class="d-none" value="test">
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+
+options = window.localStorage;
+options.setItem('stat', '');
+stats = {};
+
+function updateLatestStat(callback) {
+    $.ajax({
+        url: 'http://184.169.193.223/study-insights',
+        type: 'GET',
+        success: function (response) {
+            options.setItem('stat', JSON.stringify(response));
+            stats = response;
+            console.log("Latest Statistics Updated: ", options.getItem('stat'));
+            if (typeof callback === "function") {
+                callback(); 
+            }
+        },
+        error: function (xhr, status, error) {
+            console.error("Error in fetching latest statistics: ", status, error);
+        }
+    });
+}
+
+function getStats(id) {
+    try {
+        return stats[id] || 0; 
+    } catch (error) {
+        console.error("Error: ", error);
+        return 0;
+    }
+}
+
+function loadTable() {
+    $.ajax({
+        url: 'hitlist.php',
+        type: 'post',
+        success: function (response) {
+            if (response != 0) {
+                const hitslist = response.split("|");
+                var tbody = $('#tableBody');
+                tbody.empty(); 
+
+                hitslist.forEach(element => {
+                    if (element.search(".json") > 0) {
+                        element = element.replace(".json", "");
+                        var element_array = element.split("_");
+                        var hit_id = element_array[0];
+                        var hit_name = element_array[1].replaceAll('"', '');
+                        var hit_date = element_array[2];
+                        var status = element_array[3];
+
+                        var responseCount = getStats(hit_id); 
+
+                        var checked = status === "1" ? "checked" : "";
+                        var newrow = '<tr><td> <input type="checkbox"> </td><td>' + hit_id + '</td><td class="text-ellipsis--1">' + hit_name + '</td> <td class="px-2 pt-2">' + responseCount + '</td>  <td class="px-2 pt-2"> <div class="form-check form-switch"> <input class="form-check-input hitstatus" type="checkbox" OnChange="changestatus(\'' + element + '\')"  ' + checked + '> </div></td>   <td>' + hit_date.replaceAll("-","\/")  + '</td> <td class="px-0"><button OnClick="hitlogs(\'' + element + '\', this)" class="btn btn-sm btn-outline-success"> <i class="fa fa-download" aria-hidden="true">&nbsp;<span style="font-family: var(--bs-body-font-family);">Logs</span></i></button> </td>   <td class="px-0"><button OnClick="copyLink(\'' + hit_id + '\')" class="btn btn-sm btn-success"><i class="fa fa-globe" aria-hidden="true">&nbsp;<span style="font-family: var(--bs-body-font-family);">Link</span></i></button></td><td class="px-0"><button OnClick="showDetails(\'' + element + '\')" class="exp-detail-btn btn btn-sm btn-primary" ><i class="fa fa-tasks" aria-hidden="true">&nbsp;<span style="font-family: var(--bs-body-font-family);">Details</span></i></button></td><td class="px-0"><button OnClick="deleteHit(\'' + element + '\')" class="btn btn-sm btn-danger"><i class="fa fa-trash" aria-hidden="true">&nbsp;<span style="font-family: var(--bs-body-font-family);">Delete</span></i></button> </td></tr>';
+                        tbody.append(newrow);
+                    }
+                });
+            } else {
+                showtoast("Load HIT List", "Now", "Hit list did not load. Try again.", "bg-danger");
+            }
+        },
+    });
+}
+
+
+$('#reload_table').on('click',function(){
+    location.reload();
+})
+
+$(document).ready(function () {
+    updateLatestStat(loadTable); 
+});
+
+        function showtoast(title, date, body, type) {
+
+            $('#toast_title').html(title);
+            $('#toast_date').html(date);
+            $('#toast_body').html(body);
+            $('#toast').addClass(type);
+
+            $('#toast').toast('show');
+        };
+
+        function copyLink(id) {
+            var copyText = $('#' + id);
+            copyText.select(); 
+            navigator.clipboard.writeText(((window.location.href).split('.html')[0] + '.html').replace("/center.html", "") + "/index.html?id=" + id);
+            showtoast("Copy Link", "Now", "Link was copied in the clipboard.", "bg-success");
+        }
+
+        function showDetails(id) {
+            $.ajax({
+                url: 'hitdetails.php?id=' + id,
+                type: 'post',
+                success: function (response) {
+                    if (response != 0) {
+                        const data = JSON.parse(response);
+                        $('#hitID').html(data['hitID']);
+                        $('#hitDate').html(data['hitDate']);
+                        $('#taskName').html(data['taskName'].replaceAll('"', ''));
+                        $('#taskSumr').html(data['taskSumr']);
+                        $('#optVisual').html(data['optVisual']);
+                        $('#optIpc').html(data['optIpc']);
+                        $('#optIts').html(data['optIts']);
+                        $('#optArrows').html(data['optArrows']);
+                        $('#optDots').html(data['optDots']);
+                        $('#optLoop').html(data['optLoop']);
+                        $('#optCenter').html(data['optCenter']);
+                        $('#optDrag').html(data['optDrag']);
+                        $('#optTitle').html(data['optTitle']);
+                        $('#exp-details').modal('show');
+                    } else {
+                        showtoast("Load HIT List", "Now", "Hit list did not load. Try again.", "bg-danger");
+                    }
+                },
+            });
+        }
+        function deleteHit(id) {
+            var result = confirm("Are you sure?");
+            if (result == true) {
+                $.ajax({
+                    url: 'hitdelete.php?id=' + id,
+                    type: 'post',
+                    success: function (response) {
+                        if (response != 0) {
+                            showtoast("Delete HIT", "Now", "Hit deleted successfuly.", "bg-success");
+                        } else {
+                            showtoast("Delete HIT", "Now", "Hit did not delete. Try again.", "bg-danger");
+                        }
+                    },
+                });
+            } else {
+            }
+            location.reload();
+        }
+        function changestatus(id) {
+
+            var result = confirm("Proceed with changing the HIT status? \n\n* Remember, changing status may affect participant access.");
+            if (result == true) {
+
+                $.ajax({
+                    url: 'changestatus.php?id=' + id,
+                    type: 'post',
+                    success: function (response) {
+                        if (response != 0) {
+                            showtoast("Change Status", "Now", "HIT status has updated successfully.", "bg-success");
+                        } else {
+                            showtoast("Change Status", "Now", "HIT status did not update. Try again.", "bg-danger");
+                        }
+                    },
+                });
+            } else {
+            }
+            location.reload();
+        }
+        var toast = ToastEl = document.getElementById('toast')
+        toast.addEventListener('hidden.bs.toast', function () {
+            $('#toast').removeClass('bg-success');
+            $('#toast').removeClass('bg-danger');
+        });
+        function hitlogs(element, buttonElement) {
+            $(buttonElement).prop("disabled", true);
+            var studyId = element.substring(0, 5);
+            $.ajax({
+                url: 'http://184.169.193.223/download/' + studyId,
+                type: 'GET',
+                success: function (response) {
+                    showtoast("Download Logs", "Now", "If your download doesn't start automatically, please use <a class='text-decoration-underline fw-light text-dark' href='" + response + "' >this link</a> to begin the download manually.", "bg-success");
+                    window.location.href = response;
+                    $(buttonElement).prop("disabled", false);
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error in download: ", status, error);
+                    showtoast("Download Logs", "Now", "There was an error in generating the download link. Please try again later. <br></br> More details: Status: " + status + " <br> Error:" + error, "bg-danger");
+                    $(buttonElement).prop("disabled", false);
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

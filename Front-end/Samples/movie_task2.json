@@ -1,0 +1,266 @@
+{
+    "carousel1":{
+        "title": "Action movies",
+        "items":{
+            "item1":{
+                "title":"Inception",
+                "image":"https://image.tmdb.org/t/p/original/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+                "tag":"Science Fiction",
+                "reviews":620,
+                "stars":5,
+                "key": false
+            },
+            "item2":{
+                "title":"Spider-Man: No Way Home",
+                "image":"https://image.tmdb.org/t/p/original/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg",
+                "tag":"Adventure",
+                "reviews":717,
+                "stars":4,
+                "key": false
+            },
+            "item3":{
+                "title":"The Matrix",
+                "image":"https://image.tmdb.org/t/p/original/l4QHerTSbMI7qgvasqxP36pqjN6.jpg",
+                "tag":"Science Fiction",
+                "reviews":1413,
+                "stars":5,
+                "key": false
+            },
+            "item4":{
+                "title":"The Dark Knight",
+                "image":"https://image.tmdb.org/t/p/original/pbEkjhdfP7yuDcMB78YEZwgD4IN.jpg",
+                "tag":"Thriller",
+                "reviews":514,
+                "stars":4,
+                "key": false
+            },
+            "item5":{
+                "title":"Everything Everywhere All at Once",
+                "image":"https://image.tmdb.org/t/p/original/tt79dbOPd9Z9ykEOpvckttgYXwH.jpg",
+                "tag":"Science Fiction",
+                "reviews":75,
+                "stars":5,
+                "key": false
+            },
+            "item6":{
+                "title":"The Lord of the Rings: The Fellowship of the Ring",
+                "image":"https://image.tmdb.org/t/p/original/gU84vBGG2x8K3x1zrz4SggiN5hr.jpg",
+                "tag":"Fantasy",
+                "reviews":583,
+                "stars":3,
+                "key": false
+            }
+        }
+    },
+
+    "carousel2":{
+        "title": "Comedy movies",
+        "items":{
+            "item2":{
+                "title":"The Wolf of Wall Street",
+                "image":"https://image.tmdb.org/t/p/original/br7n8b3ELexcvs6l30IH2x9P2ux.jpg",
+                "tag":"crime",
+                "reviews":122,
+                "stars":4,
+                "key": false
+            },
+            "item3":{
+                "title":"Forrest Gump",
+                "image":"https://image.tmdb.org/t/p/original/3h1JZGDhZ8nzxdgvkxha0qBqi05.jpg",
+                "tag":"Romance",
+                "reviews":7223,
+                "stars":5,
+                "key": false
+            },
+            "item4":{
+                "title":"Up",
+                "image":"https://image.tmdb.org/t/p/original/hGGC9gKo7CFE3fW07RA587e5kol.jpg",
+                "tag":"Animation",
+                "reviews":924,
+                "stars":4,
+                "key": false
+            },
+            "item5":{
+                "title":"Shrek",
+                "image":"https://image.tmdb.org/t/p/original/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+                "tag":"Animation",
+                "reviews":1025,
+                "stars":3,
+                "key": false
+            },
+            "item6":{
+                "title":"Deadpool",
+                "image":"https://image.tmdb.org/t/p/original/en971MEXui9diirXlogOrPKmsEn.jpg",
+                "tag":"Action",
+                "reviews":3226,
+                "stars":4,
+                "key": false
+            }
+        }
+
+    },
+
+    "carousel3": {
+        "title": "Science fiction movies",
+        "items": {
+            "item1": {
+                "title": "Interstellar",
+                "image": "https://image.tmdb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+                "tag": "Science Fiction",
+                "reviews": 1511,
+                "stars": 5,
+                "key": false
+            },
+            "item2": {
+                "title": "The Matrix",
+                "image": "https://image.tmdb.org/t/p/original/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+                "tag": "Science Fiction",
+                "reviews": 2000,
+                "stars": 5,
+                "key": false
+            },
+            "item3": {
+                "title": "Inception",
+                "image": "https://image.tmdb.org/t/p/original/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+                "tag": "Science Fiction",
+                "reviews": 1825,
+                "stars": 5,
+                "key": false
+            },
+            "item4": {
+                "title": "Arrival",
+                "image": "https://w0.peakpx.com/wallpaper/875/148/HD-wallpaper-movie-arrival-amy-adams-jeremy-renner.jpg",
+                "tag": "Science Fiction",
+                "reviews": 1580,
+                "stars": 4,
+                "key": false
+            },
+            "item5": {
+                "title": "Blade Runner 2049",
+                "image": "https://image.tmdb.org/t/p/original/aMpyrCizvSdc0UIMblJ1srVgAEF.jpg",
+                "tag": "Science Fiction",
+                "reviews": 1203,
+                "stars": 4,
+                "key": false
+            },
+            "item6": {
+                "title": "Ex Machina",
+                "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/51n2-YwRhkL._AC_UF894,1000_QL80_.jpg",
+                "tag": "Science Fiction",
+                "reviews": 835,
+                "stars": 3,  
+                "key": true
+            }
+        }
+    },
+
+
+    "carousel4": {
+        "title": "Romantic movies",
+        "items": {
+            "item1": {
+                "title": "The Notebook",
+                "image": "https://imgc.allpostersimages.com/img/posters/the-notebook_u-L-F1KG5H0.jpg?artPerspective=n",
+                "tag": "Romance",
+                "reviews": 1690,
+                "stars": 5,
+                "key": false
+            },
+            "item2": {
+                "title": "La La Land",
+                "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f8b2ef92655071.5e505bf7132ab.png",
+                "tag": "Romance",
+                "reviews": 1431,
+                "stars": 4,
+                "key": false
+            },
+            "item3": {
+                "title": "Pride and Prejudice",
+                "image": "https://1.bp.blogspot.com/-v6rL5OOj5_8/X7s19uZzS0I/AAAAAAABOaM/AnJvfFxlQx8O19WWm7-fHYbbvQpEWkEUQCLcBGAsYHQ/s1280/prideandprejudice2005.jpg",
+                "tag": "Romance",
+                "reviews": 1883,
+                "stars": 4,
+                "key": false
+            },
+            "item4": {
+                "title": "500 Days of Summer",
+                "image": "https://wallpapers.com/images/featured/500-days-of-summer-9w6wxl1xynrdyges.jpg",
+                "tag": "Romance",
+                "reviews": 1223,
+                "stars": 3,
+                "key": false
+            },
+            "item5": {
+                "title": "Twilight",
+                "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/adf7709f-e5cc-43d6-a383-30806271468c/dg2z1b4-cfa5e904-bde2-41da-9af8-e334644f03e2.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FkZjc3MDlmLWU1Y2MtNDNkNi1hMzgzLTMwODA2MjcxNDY4Y1wvZGcyejFiNC1jZmE1ZTkwNC1iZGUyLTQxZGEtOWFmOC1lMzM0NjQ0ZjAzZTIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.FhzbiDoT1nrEG3K4atGGb6ku7b5ecYQNZuLSY_vMIvI",
+                "tag": "Romance",
+                "reviews": 2693,
+                "stars": 2,
+                "key": false
+            },
+            "item6": {
+                "title": "The Room",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXCimcNYOt9IelbsiXeWvi1_Q9904Z7IshW0nXueGZDJjSKFKqVbVdsvZlyk0Mwxmrk_w&usqp=CAU",
+                "tag": "Romance",
+                "reviews": 850,
+                "stars": 1,
+                "key": false
+            }
+        }
+    },
+
+    "carousel5": {
+        "title": "Musicals",
+        "items": {
+            "item1": {
+                "title": "La La Land",
+                "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f8b2ef92655071.5e505bf7132ab.png",
+                "tag": "Musical",
+                "reviews": 1800,
+                "stars": 5,
+                "key": false
+            },
+            "item2": {
+                "title": "The Greatest Showman",
+                "image": "https://w0.peakpx.com/wallpaper/291/904/HD-wallpaper-movie-the-greatest-showman-hugh-jackman.jpg",
+                "tag": "Musical",
+                "reviews": 1624,
+                "stars": 4,
+                "key": false
+            },
+            "item3": {
+                "title": "Les Misérables",
+                "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-750,h-550/et00012506-mqnrexzsxj-landscape.jpg",
+                "tag": "Musical",
+                "reviews": 1466,
+                "stars": 4,
+                "key": false
+            },
+            "item4": {
+                "title": "Mamma Mia!",
+                "image": "https://c8.alamy.com/comp/2K3E7EB/mamma-mia!-2008-mamma-mia!-movie-poster-mamma-mia-2K3E7EB.jpg",
+                "tag": "Musical",
+                "reviews": 1290,
+                "stars": 3,
+                "key": false
+            },
+            "item5": {
+                "title": "Cats",
+                "image": "https://globalcomment.com/wp-content/uploads/2020/01/20200110-Cats-Movie-Posts.png",
+                "tag": "Musical",
+                "reviews": 1023,
+                "stars": 2,
+                "key": false
+            },
+            "item6": {
+                "title": "The Phantom of the Opera",
+                "image": "https://www.mediastorehouse.com/p/497/phantom-opera-american-movie-poster-1925-6251383.jpg.webp",
+                "tag": "Musical",
+                "reviews": 804,
+                "stars": 1,
+                "key": false
+            }
+        }
+    }
+
+}

@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>CARE - Main</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style type="text/css">
+        html,
+        body {
+            background: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+
+        .card-sl {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .card-image img {
+            max-height: 100%;
+            max-width: 100%;
+            border-radius: 8px 8px 0px 0;
+        }
+
+        .card-button {
+            display: flex;
+            justify-content: center;
+            padding: 1px 0;
+            width: 100%;
+            background-color: #c2d9f6;
+            color: #fff;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .card-button:hover {
+            text-decoration: none;
+            background-color: #1D3461;
+            color: #fff;
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .slider {
+            width: 99%;
+            margin: 5px auto;
+        }
+
+        .slick-slide {
+            margin: 0px 5px;
+        }
+
+        .slick-slide img {
+            width: 100%;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            color: black;
+        }
+
+
+        .slick-slide {
+            transition: all ease-in-out .3s;
+            opacity: .2;
+        }
+
+        .slick-active {
+            opacity: 1;
+        }
+
+        .slick-current {
+            opacity: 1;
+        }
+
+
+        .card-heading {
+            font-size: 15px;
+            font-weight: bold;
+            background: #fff;
+            padding: 0px 10px;
+        }
+
+
+        .text-ellipsis--2 {
+            text-overflow: ellipsis;
+            overflow: hidden;
+
+            display: -webkit-box !important;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            white-space: normal;
+            padding-right: 1rem;
+           
+        }
+
+        .text-ellipsis--4 {
+            text-overflow: ellipsis;
+            overflow: hidden;
+
+            display: -webkit-box !important;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            white-space: normal;
+            min-height: 45px;
+        }
+
+
+
+        .selectbutton {
+            background: #fff;
+            padding: 10px 10px;
+            display: grid;
+        }
+
+        .height-100 {
+            height: 100vh;
+        }
+
+        .card {
+            width: 380px;
+            border: none;
+            height: 280px;
+        }
+
+
+        .ratings {
+            margin-right: 10px;
+        }
+
+        .ratings i {
+
+            color: #cecece;
+            font-size: 24px;
+        }
+
+        .rating-color {
+            color: #fbc634 !important;
+        }
+
+        .review-count {
+            font-weight: 400;
+            margin-bottom: 2px;
+            font-size: 24px !important;
+        }
+
+        .small-ratings i {
+            color: #cecece;
+        }
+
+        .review-stat {
+            font-weight: 300;
+            font-size: 18px;
+            margin-bottom: 2px;
+        }
+
+        .modal-backdrop {
+            opacity: 0.75 !important;
+        }
+
+        .leftbackground {
+            background: rgb(255, 0, 0);
+            background: linear-gradient(90deg, rgba(255, 0, 0, 0.4962359943977591) 0%, rgba(255, 255, 255, 0.4962359943977591) 100%);
+            border-top-left-radius: 1rem;
+            border-bottom-left-radius: 1rem;
+        }
+
+        .rightbackground {
+            background: rgb(255, 255, 255);
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.4962359943977591) 0%, rgba(0, 255, 132, 0.4962359943977591) 100%);
+            border-top-right-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+        }
+    </style>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="info-fill" fill="currentColor" viewBox="0 0 18 18">
+            <path
+                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+        </symbol>
+    </svg>
+</head>
+
+<body>
+    <div id="main">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand p-0" href="#!">CARE: A Carousel Evaluation Tool<br>
+                    <h6 class="text-secondary"><small>HIT ID: <span class="text-info" id="v_hitid"></span></small> |
+                        <small>Unique User ID: <span class="text-info" id="v_parid"></span></small>
+                    </h6>
+                </a>
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-lg-0  bg-secondary border border-light rounded-3">
+                        <li class="nav-item"><a class="p-2 nav-link text-white" href="#">Task Summary:</a></li>
+                        <li class="nav-item"><a class=" p-2 nav-link" href="#!"><small><abbr
+                                        title="Find this item and click 'Submit as Answer'."><span
+                                            id="v_taskSumr"></span> </abbr></small> </a></li>
+                        <li class="p-0 m-0 px-1  btn btn-secondary"><a id="exitpage" class=" p-2 nav-link text-white"
+                                href="#!">Exit</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-lg-12">
+                    <article id="mainpannel">
+
+                    </article>
+                </div>
+            </div>
+        </div>
+        <nav class="footer position-fixed bottom-0 w-100" style="display: contents">
+            <footer class="py-1 bg-dark">
+                <div class="container">
+                    <p class="m-0 text-center text-white">Copyright &copy; CARE 2024</p>
+                </div>
+            </footer>
+        </nav>
+    </div>
+
+    <div class="modal fade" id="intro" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <p><small>Please follow the instructions to complete the task.</small></p>
+                    <h5 class="px-2">Task Description</h5>
+                    <div class="border border-4 p-2 m-2 bg-ligh">
+                        <p><small> Located the item described below:</small></p>
+                        <p class="text-center"><i><span class="blockquote py-2 "><span
+                                        id="v_taskDesc"></span></span></i> </p>
+                    </div>
+
+                    <form>
+                        <div class="mb-3 form-check form-switch">
+                            <input id="confirmEnter" class="form-check-input" type="checkbox">
+                            <label class="form-check-label" for="confirmEnter"><small>I undrestand the task and agree to
+                                    <a href="faq.html" target="_blank"><abbr
+                                            title="click for complete terms and conditions">terms and conditions
+                                        </abbr></a></small> </label>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button id="start" type="button" class="btn btn-success">Start Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="position-fixed bottom-0 end-0 p-2 my-4" style="z-index: 11">
+        <div id="toast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong id="toast_title" class="me-auto"></strong>
+                <small id="toast_date"></small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div id="toast_body" class="toast-body">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+
+    <script>
+
+        window.onbeforeunload = null;
+
+        is_real_study = 0 //Change this to 1 a real study
+
+        let date = new Date();
+        let timestamp = date.getTime();
+        user_id = Math.random().toString(36).substr(2, 4);
+        console.log("Assigning a new ID to the user: " + user_id);
+
+        $('#userid').text(user_id.slice(-4));
+        $('#v_parid').text(user_id.slice(-4).toUpperCase());
+
+        globalStartTime = new Date();
+        sessionStartTime = new Date();
+        eventData = [];
+        code = [...Array(4)].map(() => Math.random().toString(36).charAt(2).toUpperCase()).join('');
+        hit_setting = {};
+        finish_status = 0;
+
+        localStorage.clear();
+        options = window.localStorage;
+        options.setItem('HITfile', '');
+        options.setItem('HITdata', '');
+        options.setItem('HITID', '');
+        sorting = {};
+        hidden = {};
+    </script>
+
+    <script>
+        function initDisplay(settings, data) {
+            var display = "";
+            var ind = 0;
+            for (var key of Object.keys(data)) {
+                ind += 1;
+                display += drawcarousel(ind, data[key].title, settings, data[key]);
+                options.setItem(data[key].title, "none");
+            }
+            return display;
+        }
+
+
+        function sortItems(data, sortBy, isDescending = true) {
+            const itemsArray = Object.keys(data).map(key => ({
+                id: key,
+                ...data[key]
+            }));
+
+            itemsArray.sort((a, b) => {
+                let comparison = 0;
+                if (typeof a[sortBy] === 'string') {
+                    comparison = a[sortBy].localeCompare(b[sortBy]);
+                } else {
+                    comparison = a[sortBy] - b[sortBy];
+                }
+e
+                return isDescending ? -comparison : comparison;
+            });
+
+            return itemsArray;
+        }
+
+        function drawcarousel(ind, title, settings, data) {
+
+            var out = "";
+            if (settings.optTitle == 'true') {
+                if (settings.hideTitle == 'true') {
+                    out += '<div class="d-inline"><h5><span onclick="showTitle(' + ind + ')" id="titleToggle_' + ind + '" class="badge bg-secondary">Show Title</span></h5> <h3 id="carouselTitle_' + ind + '" class="d-none">' + title + '</h3></div>';
+                } else {
+                    out += '<h3>' + title + '</h3>';
+                }
+            } else {
+                out += '<h3>&nbsp;</h3>';
+            }
+
+            if(settings.optSorting == 'true'){
+                    out += '<div class="p-0 m-0"> <span class="small fw-light">Sort By: </span> <a role="button" id="sorttitle_' + ind + '" onclick="changesort(\'' + title.trim() + '\',\'title\',carouselOptios, JSON.parse(data), this.id);" class="small bg-light px-1">Title</a> <a role="button" id="sortrating_' + ind + '" onclick="changesort(\'' + title.trim() + '\',\'stars\',carouselOptios, JSON.parse(data) , this.id);" class="small bg-light px-1">Rating</a> <a role="button" id="sortreview_' + ind + '"  onclick="changesort(\'' + title.trim() + '\',\'reviews\',carouselOptios, JSON.parse(data) , this.id);" class="small bg-light px-1">Reviwes</a> </div>';
+                    }
+
+            out += '<div class="testcarousel slider" data-slick=\'{"slidesToShow": ' + settings.slidesToShow + ', "slidesToScroll": ' + settings.slidesToScroll + ', "arrows": ' + settings.arrows + ', "dots": ' + settings.dots + ', "infinite": ' + settings.infinite + ', "centerMode": ' + settings.centerMode + ', "draggable": ' + settings.draggable + ' }\' >';
+
+            var sortoption = options.getItem(title);
+
+            var items = data['items'];
+            if (sortoption != "none") {
+
+                items = sortItems(data['items'], sortoption);
+            }
+
+            for (var key of Object.keys(items)) {
+                out += drawitem(settings.optVisual, items[key]);
+            }
+            out += '</div>';
+            return out;
+
+        }
+
+        function changesort(carousel_title, sort_option, settings, data, cid) {
+
+
+            sorting[cid.split("_").pop()] = cid;
+
+            options.setItem(carousel_title, sort_option);
+            var display = "";
+            var ind = 0;
+
+            for (var key of Object.keys(data)) {
+                ind += 1;
+                display += drawcarousel(ind, data[key].title, settings, data[key]);
+            }
+
+            $('#mainpannel').empty();
+            $('#mainpannel').html(display);
+            $('.testcarousel').slick();
+
+            for (s in sorting) {
+                $('#' + sorting[s]).css('color', 'red');
+                $('#' + sorting[s]).css('font-weight', 'bold');
+            }
+
+            for(h in hidden){
+
+            $('#titleToggle_' + h).css('display', 'none');
+            $('#carouselTitle_' + h).removeClass("d-none");
+
+            }
+
+
+
+        }
+
+        function drawitem(type, data) {
+
+            var title = data.title;
+            var image = data.image;
+            var tag = data.tag;
+            var reviews = data.reviews;
+            var stars = data.stars;
+            var key = data.key;
+
+            var itemdesign = "";
+            switch (type) {
+
+                case 'social':
+                    itemdesign += '<div class="items"> <div class="card-sl" style="display: contents;"> <div class="card-image"> <img style="max-height: 5rem; object-fit: cover;object-position: top; " src="' + image + '"> </div><div class="row p-0 m-0"> <div class=" col small-ratings ps-2 py-1  bg-white SocialToast">';
+                    for (var i = 0; i < stars; i++) {
+                        itemdesign += '<i class="fa fa-star rating-color"></i>';
+                    }
+                    for (var j = 0; j < 5 - stars; j++) {
+                        itemdesign += '<i class="fa fa-star"></i>';
+                    }
+                    itemdesign += '</div><div class="col bg-white"><p class=" m-0 h6 fw-light fs-6 SocialToast float-end"><u><small>' + reviews + ' reviews</small></u> </p> </div></div> <div class="ps-2 bg-white text-ellipsis--2 font-weight-bold "><strong>' + title + '</strong></div> <div class="ps-2 py-0 bg-white small text-secondary"> ' + tag + ' </div> <div class="selectbutton"> <button OnClick="submitanswer(\'' + key + '\', this)"  type="button" class="btn btn-primary btn-sm" style="outline: none !important; box-shadow: none;">Submit as Answer</button> </div> </div> </div>'
+                    break;
+
+                case 'details':
+                    itemdesign = '<div class="items"> <div class="card-sl" style="display: contents;"> <div class="card-image"> <img style="max-height: 110px; object-fit: cover; " src="' + image + '"> </div> <div class="ps-2 py-1 bg-white small text-secondary"> ' + tag + ' </div> <div class="ps-2 bg-white text-ellipsis--2 font-weight-bold"><strong>' + title + '</strong> </div> <div class="mt-0 p-0 bg-white d-flex flex-row justify-content-center align-items-center"> <div class="w-25 text-center small border-end">22<div><small><abbr title="Preperation Time (minutes).">Time</abbr></small> </div> </div> <div class="w-25 text-center small">12 <div><small><abbr title="Number of Steps">Steps</abbr></small></div> </div> <div class="w-25 text-center small border-start">333 <div><small><abbr title="Number of Calories">Cal.</abbr></small></div> </div> <div class="w-25 text-center small border-start">48 <div><small><abbr title="Total Fat Percent Daily Value (%DV)">Fat</abbr></small> </div> </div> </div> <div class="selectbutton"> <button type="button" class="btn btn-primary btn-sm" style="outline: none !important; box-shadow: none;">View Details</button> </div> </div> </div>';
+                    break;
+
+
+                default:
+                    itemdesign = '<div class="items"> <div class="card-sl" style="display: contents;"> <div class="card-image"> <img style="max-height: 110px; object-fit: cover; " src="' + image + '"> </div> <div class="ps-2 py-1 bg-white small text-secondary"> ' + tag + ' </div> <div class="ps-2 bg-white text-ellipsis--2"><strong>' + title + '</strong> </div> <div class="text-ellipsis--2 bg-white small px-2 fw-light text-secondary "> autumn is my favorite time of year to cook! this recipe can be prepared either spicy or sweet, your choice! two of my posted mexican-inspired seasoning mix recipes are offered as suggestions. </div> <div class="selectbutton"> <button type="button" class="btn btn-primary btn-sm" style="outline: none !important; box-shadow: none;">View Details</button> </div> </div> </div>';
+            }
+            return itemdesign;
+        }
+
+        function showtoast(title, date, body, type) {
+
+            $('#toast').removeClass('bg-success');
+            $('#toast').removeClass('bg-danger');
+
+            $('#toast_title').html(title);
+            $('#toast_date').html(date);
+            $('#toast_body').html(body);
+            $('#toast').addClass(type);
+            $('#toast').toast('show');
+
+
+        }
+
+        function getHitID() {
+            options.setItem('HITfile', '');
+            var url_string = window.location.href;
+            var url = new URL(url_string);
+            var hitid = url.searchParams.get("id");
+
+
+            if (hitid != null) {
+                $.ajax({
+                    url: 'hitvalid.php?id=' + hitid,
+                    type: 'post',
+                    async: false,
+                    success: function (response) {
+                        if (response != 0) {
+                            options.setItem('HITfile', response);
+                        } else {
+                            options.setItem('HITfile', 0);
+                        }
+                    },
+                });
+            } else {
+                options.setItem('HITfile', 0);
+            }
+            return options.getItem('HITfile');
+        }
+
+        function submitanswer(key, button) {
+            if (key == 'true') {
+                finish_status = 1;
+                showtoast("Correct", "Now", "<b>Correct answer!</b></br> You will soon be redirected to a page to receive your MTurk form code.", "bg-success");
+                setTimeout(function () {
+                    send_data(true);
+                    
+                }, 2000);
+
+
+
+            } else {
+                showtoast("Not Quite Right", "Now", "<b>That's not the answer we were looking for.</b></br> Take another moment to think it over and give it another try!", "bg-danger");
+            }
+            
+        }
+
+        function readData(path) {
+            $.ajax({
+                url: 'hitdata.php?path=' + path,
+                type: 'post',
+                async: false,
+                success: function (response) {
+                    if (response != 0) {
+                        options.setItem('HITdata', response);
+                    } else {
+                    }
+                },
+            });
+            return options.getItem('HITdata');
+        }
+
+    </script>
+    <script type="text/javascript">
+
+
+
+        function showTitle(ind) {
+
+            hidden[ind] = true;
+            $('#titleToggle_' + ind).css('display', 'none');
+            $('#carouselTitle_' + ind).removeClass("d-none");
+        }
+
+        $(document).on('ready', function () {
+
+
+  
+            var hit_path = getHitID();
+            
+
+            if (hit_path != 0 && hit_path.replace('.json', "").slice(-1) != "0") {
+
+                var path = options.getItem('HITfile');
+
+                var allData = readData(path);
+                if (allData) {
+
+                    var everything = JSON.parse(allData);
+                    var details = JSON.parse(everything.details);
+                    data = everything.data;
+
+
+                    if (details.status == 0) {
+                        
+                        alert('invalid');
+                    }
+
+
+                    
+                    $('#v_hitid').html(details.hitID);
+
+
+                    options.setItem('HITID', details.hitID);
+                    $('#v_taskSumr').html(details.taskSumr.replaceAll('"', ''));
+                    $('#v_taskDesc').html(details.taskDesc.replaceAll('"', ''));
+                    
+                    carouselOptios = {
+                        slidesToShow: details.optIpc,
+                        slidesToScroll: details.optIts,
+                        arrows: details.optArrows,
+                        dots: details.optDots,
+                        infinite: details.optLoop,
+                        centerMode: details.optCenter,
+                        draggable: details.optDrag,
+                        optVisual: details.optVisual,
+                        optTitle: details.optTitle,
+                        leftLabel: details.leftLabel,
+                        rightLabel: details.rightLabel,
+                        hideTitle: details.hideTitle,
+                        optSorting: details.optSorting,
+                    };
+
+                    
+                    $('#mainpannel').html(initDisplay(carouselOptios, JSON.parse(data)));
+                    hit_setting = carouselOptios;
+
+                    $('#main').css('filter', 'blur(2px)');
+                    $('#intro').modal('show');
+
+                }
+            } else {
+                window.location.href = 'denied.html';
+            }
+
+            $("#start").on("click", function () {
+                if ($('#confirmEnter').is(':checked')) {
+                    $('#intro').modal('hide');
+                    $('#main').css('filter', 'none');
+
+                } else {
+
+                    $('#confirmEnter').css('border-color', 'red');
+                    $('#confirmEnter').focus();
+                }
+            });
+
+
+            $('.testcarousel').slick();
+
+            
+            $(".selectbutton").click(function () {
+                $('#details').modal('show');
+            });
+
+            $("#sumbitanswer").click(function () {
+                location.href = 'confirm.html';
+            });
+
+
+            
+            $("#exitpage").click(function () {
+                var result = confirm("Are you sure you want to exit early? Exiting now may impact your pay for this HIT. Click 'OK' to exit or 'Cancel' to continue.");
+                if (result == true) {
+                    send_data(false);
+                    
+                }
+            });
+
+            
+            var toast = ToastEl = document.getElementById('toast')
+            toast.addEventListener('hidden.bs.toast', function () {
+                $('#toast').removeClass('bg-success');
+                $('#toast').removeClass('bg-danger');
+            });
+
+        });
+
+        $("start").click(function () {
+            sessionStartTime = new Date();
+        })
+
+    </script>
+
+    <script>
+        function send_data(status) {
+
+           
+            let finalLog = {
+                hit_id: options.getItem('HITID'),
+                user_id: user_id,
+                global_start_time: globalStartTime.toISOString(),
+                session_start_time: sessionStartTime.toISOString(),
+                end_time: new Date().toISOString(),
+                code: code,
+                logging_type: is_real_study,
+                hit_setting: hit_setting,
+                finish_status: finish_status,
+                eventData: eventData
+            };
+            const logJson = JSON.stringify(finalLog);
+            
+
+            var redirectURL;
+            if (status) {
+                redirectURL = "confirm.html?code=" + user_id.slice(-4).toUpperCase();
+            } else {
+                redirectURL = "exit.html?code=" + user_id.slice(-4).toUpperCase();
+            }
+
+            $.ajax({
+                url: 'http://184.169.193.223/logging',
+                type: 'POST',
+                contentType: 'application/json',
+                data: logJson,
+                success: function (response) {
+                    
+
+                    console.log('Data sent successfully', response);
+                    window.location.replace(redirectURL);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error sending data', error);
+                }
+            });
+            
+        }
+
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+           
+            const isBootstrapDialogOpen = () => {
+                return !!document.querySelector('.modal.show');
+            };
+
+            
+            const logEvent = (eventType, eventDetails) => {
+                eventData.push({
+                    eventType,
+                    timestamp: new Date().toISOString(),
+                    isDialogOpen: isBootstrapDialogOpen(),
+                    details: eventDetails
+                });
+            };
+
+           
+            let mouseMoveCounter = 0;
+            let mouseMoveLogInterval = 100; 
+            document.addEventListener('mousemove', (e) => {
+                if (++mouseMoveCounter % mouseMoveLogInterval === 0) {
+                    logEvent('mousemove', { x: e.clientX, y: e.clientY });
+                    mouseMoveCounter = 0;
+                }
+            });
+
+           
+            const setMouseMoveLogInterval = (interval) => {
+                mouseMoveLogInterval = interval;
+            };
+
+           
+            document.addEventListener('click', (e) => {
+                const element = e.target;
+                const elementDetails = {
+                    x: e.clientX, y: e.clientY,
+                    id: element.id || 'no-id',
+                    class: element.className || 'no-class'
+                };
+                logEvent('click', elementDetails);
+
+            });
+
+           
+            document.addEventListener('scroll', () => {
+                logEvent('scroll', { scrollTop: window.scrollY });
+            });
+
+            
+            document.addEventListener('keydown', (e) => {
+                logEvent('keydown', { key: e.key });
+            });
+
+            window.addEventListener('resize', () => {
+                logEvent('resize', { width: window.innerWidth, height: window.innerHeight });
+            });
+
+        });
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>
